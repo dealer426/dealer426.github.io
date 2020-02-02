@@ -1,2 +1,2 @@
-# Spartan Code Web Page
-Web Page for Dealer 426
+# Spartan 
+Web Page for Spartan Code
