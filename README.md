@@ -1,2 +1,2 @@
-# dealer426.github.io
+# Spartan Code Web Page
 Web Page for Dealer 426
