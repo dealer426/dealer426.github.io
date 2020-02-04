@@ -1,11 +1,11 @@
 body
 {
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(128,34,25,1) 95%);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(126,3,3,1) 94%);
 
 }
 
-h1
+header, section, footer
 {
     color: #ffffff;
 }
