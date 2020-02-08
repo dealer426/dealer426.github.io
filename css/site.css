@@ -114,13 +114,11 @@ h2{
 }
 
 #aboutcontainet{
-    display: grid;
-    grid-template-areas:
-    'img img about about about about'
-    'skills skills skills skills skills skills';
-    grid-gap: 3em;
-    padding: 2 em;
-    padding-right: 0em;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -145,19 +143,17 @@ h2{
 
 .grid-item-1
 {
-    grid-area: img;
-    align-items: center;
-    justify-content: center; 
+    width:32%;
 }
 
 .grid-item-2
 {
-    grid-area: about;
+    
 }
 
 .grid-item-3
 {
-    grid-area: skills;
+   width:100%;
 }
 
 
