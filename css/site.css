@@ -113,7 +113,7 @@ h2{
     font-size: 3em;
 }
 
-#aboutcontainet{
+#aboutcontainer{
     display:flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -121,14 +121,23 @@ h2{
     margin: 0;
 }
 
+#aboutcontainer .grid-item-1
+{
+    display:flex;
+    flex-flow: row wrap;
+    width:32%;
+    align-items: center;
+    justify-content: center;
+}
 
-#aboutsection img{
+#aboutcontainer img{
     -moz-box-shadow: 0px 6px 5px rgb(121, 118, 118);
     -webkit-box-shadow: 0px 6px 5px rgb(121, 118, 118);
     box-shadow: 0px 6px 5px rgb(121, 118, 118);
     -moz-border-radius:230px;
     -webkit-border-radius:230px;
     border-radius:230px;
+    
 }
 
 #aboutsection h2{
@@ -136,20 +145,22 @@ h2{
     margin-bottom: .4em;
 }
 
+@media all and (max-width: 760px) {
+
+    #aboutcontainer .grid-item-1
+{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
 #aboutsection .grid-item-2 h3{
     text-align:center;
     margin-bottom: .4em;
 }
 
-.grid-item-1
-{
-    width:32%;
-}
-
-.grid-item-2
-{
-    
-}
 
 .grid-item-3
 {
