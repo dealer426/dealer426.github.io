@@ -113,14 +113,14 @@ h2{
     font-size: 3em;
 }
 
-#aboutsection{
-    margin-top: 7em;
+#aboutcontainet{
     display: grid;
     grid-template-areas:
     'img img about about about about'
     'skills skills skills skills skills skills';
     grid-gap: 3em;
-    padding: 10px;
+    padding: 2 em;
+    padding-right: 0em;
 }
 
 
@@ -135,6 +135,12 @@ h2{
 
 #aboutsection h2{
     text-align:center;
+    margin-bottom: .4em;
+}
+
+#aboutsection .grid-item-2 h3{
+    text-align:center;
+    margin-bottom: .4em;
 }
 
 .grid-item-1
