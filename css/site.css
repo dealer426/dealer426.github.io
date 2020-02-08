@@ -6,8 +6,7 @@
     padding: 0;
 }
 
-.bgred
-{
+.bgred{
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(126,3,3,1) 94%);
 }
 
@@ -21,7 +20,7 @@ section > p{
 margin: 1em 0;
 }
 
-section ul {
+section ul{
     padding-left: 1.5em;
 }
 
@@ -29,7 +28,6 @@ header, footer, #aboutsection, #spartanprojects, #contact{
     margin: 0 auto;
     max-width: 960px;
 }
-
 
 header, #spartanprojects, footer{
    
@@ -44,9 +42,7 @@ header h2{
     font-size: 1.5em;
 }
 
-
-nav
-{
+nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -54,52 +50,45 @@ nav
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(126,3,3,1) 94%);
 }
 
-.navalign
-{
+.navalign{
     margin: 0 auto;
     max-width: 960px;
     display:flex;
     flex-flow:row;
     justify-content: end;
-
 }
 
-nav a
-{
+nav a{
     padding: .5em 1em;
     color: rgb(192, 189, 189);
     text-decoration: none;
 }
 
-nav a:hover
-{
+nav a:hover{
     color: rgb(255, 255, 255);
 }
 
 
-#aboutsection, #contact, #projects article
-{
+#aboutsection, #contact, #projects article{
     color:#290b08;
 }
 
 
 #projects{
-
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
-  
- 
 }
 
 #projects article{
     background: #fff;
     border-radius: .5em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-    margin: 1em 0;
-    width: 33%;
+    margin: 1em auto;
+    width:32%;
+
 }
 
 @media all and (max-width: 760px) {
@@ -108,14 +97,11 @@ nav a:hover
         background: #fff;
         border-radius: .5em;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-        margin: 1em 0;
+        margin: 1em auto;
         width: 100%;
     }
 
 }
-
-
-
 
 footer{
     padding-top: 1em;
