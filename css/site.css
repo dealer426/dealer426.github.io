@@ -34,9 +34,7 @@ header, footer, #aboutsection, #spartanprojects, #contact{
 header{
  
     background: url(../images/spartan-helmet.png) no-repeat;
-    
-    margin-top: 2em;
-    height: 505px;
+    height: 550px;
 }
 
 header, #spartanprojects, footer{
