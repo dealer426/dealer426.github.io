@@ -122,7 +122,6 @@ h2{
 
 
 #aboutsection img{
-
     -moz-box-shadow: 0px 6px 5px rgb(121, 118, 118);
     -webkit-box-shadow: 0px 6px 5px rgb(121, 118, 118);
     box-shadow: 0px 6px 5px rgb(121, 118, 118);
@@ -141,7 +140,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center; 
-
 }
 
 .grid-item-2
