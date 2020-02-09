@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .bgred{
@@ -140,6 +141,8 @@ h2{
     
 }
 
+
+
 #aboutsection h2{
     text-align:center;
     margin-bottom: .4em;
@@ -150,9 +153,37 @@ h2{
     #aboutcontainer .grid-item-1
 {
     width:100%;
+    display:flex;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
 }
+
+#aboutcontainer .grid-item-2
+{
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutcontainer .grid-item-2 h3{
+    width:100%;
+}
+
+#aboutcontainer .grid-item-2 ul li{
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    list-style-type: none;
+}
+
+
+
 }
 
 
@@ -161,6 +192,25 @@ h2{
     margin-bottom: .4em;
 }
 
+.grid-item-2 ul{
+    margin-top: 4em;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.grid-item-2 ul li{
+    list-style-type: none;
+}
+
+.grid-item-2 ul li a{
+    color:#3D0101;
+}
+
+.grid-item-2 ul li a:hover{
+    color:#040000;
+}
 
 .grid-item-3
 {
@@ -173,6 +223,20 @@ h2{
     font-size: 2em;
     margin-bottom: 1em;
 }
+
+.grid-item-3 ul{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    padding: 0;
+}
+
+.grid-item-3 ul li{
+    width:3.5em;
+    list-style-type: none;
+}
+
 
 
 #projects{
