@@ -223,6 +223,10 @@ h2{
 
 .grid-item-2 ul li a:hover .github path{
     fill: #9cdaf1;
+    -webkit-transition: fill 1s ease-out;
+    -moz-transition: fill 1s ease-out;
+    -o-transition: fill 1s ease-out;
+    transition: fill 1s ease-out;
 }
 
 .grid-item-2 .fa-linkedin-in{
@@ -234,6 +238,10 @@ h2{
 
 .grid-item-2 ul li a:hover .fa-linkedin-in{
     color: #2867b2;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
 }
 
 .grid-item-3
