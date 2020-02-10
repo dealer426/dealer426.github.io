@@ -253,9 +253,19 @@ h2{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     margin: 1em auto;
     width:32%;
+    text-align: center;
 
 }
 
+article img{
+    width:100%;
+}
+
+
+.github{
+    width:4.5em;
+    
+}
 
 
 @media all and (max-width: 760px) {
@@ -269,6 +279,31 @@ h2{
     }
 
 }
+
+
+
+#contact  ul{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    padding: 0;
+}
+
+#contact  ul li{
+    width:3.5em;
+    list-style-type: none;
+}
+
+#contact  ul li a{
+    color:#290b08;
+}
+
+#contact  ul li a:hover{
+    color:#0a0302;
+}
+
+
 
 footer{
     padding-top: 1em;
