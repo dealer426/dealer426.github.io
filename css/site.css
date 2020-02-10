@@ -206,10 +206,34 @@ h2{
 
 .grid-item-2 ul li a{
     color:#3D0101;
+  
+}
+
+#aboutcontainer .grid-item-2 .github{
+    width: 3em;
+    float:left;
+    padding: 0;
+    margin: 0 .5em 0 0;
+
 }
 
 .grid-item-2 ul li a:hover{
     color:#040000;
+}
+
+.grid-item-2 ul li a:hover .github path{
+    fill: #9cdaf1;
+}
+
+.grid-item-2 .fa-linkedin-in{
+    font-size: 2.5em;
+    float:left;
+    margin-top: .2em;
+    padding-right: .3em;
+}
+
+.grid-item-2 ul li a:hover .fa-linkedin-in{
+    color: #2867b2;
 }
 
 .grid-item-3
@@ -347,3 +371,4 @@ footer{
     padding-bottom: 1em;
     text-align: center;
 }
+
