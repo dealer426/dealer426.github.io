@@ -247,6 +247,15 @@ h2{
     margin: 0;
 }
 
+#spartanprojects h2{
+    padding-bottom: 1em;
+} 
+
+#spartanprojects h4{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+} 
+
 #projects article{
     background: #fff;
     border-radius: .5em;
@@ -261,9 +270,37 @@ article img{
     width:100%;
 }
 
+article a h3, article a p{
+    color:#290b08;
+}
+article a h3{
+    font-size: 2em;
+}
+
+article a p{
+    padding-top:1em;
+}
+#projects article:hover  {
+    background-color:#290b08;
+    color: #fff;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+
+#projects article:hover h3, #projects article:hover p{
+    color: #fff;
+}
+
+#projects article:hover .github path{
+    fill: #fff;
+}
 
 .github{
     width:4.5em;
+    padding-top: 1em;
+    padding-bottom: .5em;
     
 }
 
