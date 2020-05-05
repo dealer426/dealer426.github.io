@@ -80,8 +80,7 @@ nav{
     margin: 0 auto;
     max-width: 960px;
     display:flex;
-    flex-flow:row;
-    justify-content: end;
+    flex-flow: row-reverse;
 }
 
 nav a{
