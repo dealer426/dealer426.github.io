@@ -48,17 +48,16 @@ header, #spartanprojects, footer{
 header h1{
     font-size: 5em;
     display:flex;
-    justify-content: end;
     padding-top: 1em;
     text-shadow: -1px -1px 3px rgba(5, 5, 5, 0.9), 1px 1px 3px rgba(5, 5, 5, 0.9);
+    flex-flow: row-reverse;
 }
 
 header h2{
     font-size: 1.5em;
     display:flex;
-    justify-content: end;
-    padding-right: .9em;
     text-shadow: -1px -1px 3px rgba(5, 5, 5, 0.9), 1px 1px 3px rgba(5, 5, 5, 0.9);
+    flex-flow: row-reverse;
 }
 
 @media all and (max-width: 760px) {
