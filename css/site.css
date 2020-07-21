@@ -108,8 +108,10 @@ nav a:hover{
     color:#290b08;
 }
 
+
+
 h2{
-    font-size: 3em;
+    font-size: 6em;
 }
 
 #aboutcontainer{
@@ -118,6 +120,8 @@ h2{
     justify-content: space-between;
     padding: 0;
     margin: 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 #aboutcontainer .grid-item-1
@@ -130,12 +134,7 @@ h2{
 }
 
 #aboutcontainer img{
-    -moz-box-shadow: 0px 6px 5px rgb(121, 118, 118);
-    -webkit-box-shadow: 0px 6px 5px rgb(121, 118, 118);
-    box-shadow: 0px 6px 5px rgb(121, 118, 118);
-    -moz-border-radius:230px;
-    -webkit-border-radius:230px;
-    border-radius:230px;
+    width: 12em;
     
 }
 
@@ -168,6 +167,8 @@ h2{
 
 #aboutcontainer .grid-item-2 h3{
     width:100%;
+    outline: 1px solid red;
+
 }
 
 #aboutcontainer .grid-item-2 ul li{
@@ -204,6 +205,8 @@ h2{
 
 .grid-item-2 ul li a{
     color:#3D0101;
+    font-size: 1.3em;
+    
   
 }
 
