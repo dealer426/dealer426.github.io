@@ -167,7 +167,7 @@ h2{
 
 #aboutcontainer .grid-item-2 h3{
     width:100%;
-    outline: 1px solid red;
+    
 
 }
 
@@ -189,6 +189,7 @@ h2{
 #aboutsection .grid-item-2 h3{
     text-align:center;
     margin-bottom: .4em;
+    font-size: 1.4em;
 }
 
 .grid-item-2 ul{
@@ -255,6 +256,8 @@ h2{
 .grid-item-3 h3{
     font-size: 2em;
     margin-bottom: 1em;
+    margin-top:2em;
+    font-size: 3em;
 }
 
 .grid-item-3 ul{
@@ -263,10 +266,11 @@ h2{
     justify-content: space-evenly;
     margin-top: 2em;
     padding: 0;
+    padding-top: 3em;
 }
 
 .grid-item-3 ul li{
-    width:3.5em;
+    width:5.2em;
     list-style-type: none;
 }
 
